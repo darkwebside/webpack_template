@@ -1,0 +1,41 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "Webpack minimun ",
+  "main": "src/main.js",
+  "dependencies": {
+    "babel-polyfill": "^6.0.16"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^2.0.0",
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.0.1",
+    "babel-preset-es2015": "^6.1.2",
+    "css-loader": "^0.15.1",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "scripts": {
+    "start":"webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkwebside/webpack_template.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "polyfill"
+  ],
+  "author": "Manuel Glez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkwebside/webpack_template/issues"
+  },
+  "homepage": "https://github.com/darkwebside/webpack_template#readme"
+}

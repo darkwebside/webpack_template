@@ -9,5 +9,5 @@ window.setInterval(
     triangle.rotate(1);
     triangle.render();
   },
-  20
+ 30
 );
